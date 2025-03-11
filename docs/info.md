@@ -13,11 +13,11 @@
 - **Gabriela Oliveira de Souza**  
   **Nível:** Doutorado  
   **Programa:** EIA T  
-  **Formação:** Arquitetura e Urbanismo  
+  **Formação:** Arquitetura e Urbanismo
 
 - **Guilherme Henrique Coelho Cabral**  
-  **Nível:** Mestrado 
-  **Programa:** EIA T 
+  **Nível:** Mestrado  
+  **Programa:** EIA T  
   **Formação:** Engenharia Aeroespacial
 
 - **Lucas Lira Sassett** (Responsável pela atualização do github)  
