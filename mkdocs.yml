@@ -1,5 +1,6 @@
-site_name: "Grupo C - UAM"
+site_name: "Grupo A - Urban Air Mobility - IT 214"
 
 nav:
   - Home: index.md
   - Membros: info.md
+  - Atividade 1: atv1.md
