@@ -106,7 +106,7 @@
     </div>
 
 <div class="membro-card">
-        <h3>Francisco Henrique Figueiredo Araújo</h3>
+        <h3>Francisco H. Figueiredo Araújo</h3>
         <p><strong>Nível:</strong> Mestrado</p>
         <p><strong>Programa:</strong> CTE E</p>
         <p><strong>Formação:</strong> Engenharia Eletrônica</p>
