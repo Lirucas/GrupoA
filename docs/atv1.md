@@ -1,3 +1,7 @@
-# Atividade 1
+# 📝 Atividade 1
 
-**Em andamento**  
+🚧 **Status:** _Em andamento_
+
+---
+
+Mais detalhes serão adicionados assim que a atividade progredir.

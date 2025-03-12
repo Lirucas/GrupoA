@@ -1,6 +1,10 @@
 site_name: "Grupo A - Urban Air Mobility - IT 214"
 
+theme:
+  name: material
+  features:
+    - navigation.tabs  # Habilita navegação superior
+
 nav:
   - Home: index.md
-  - Membros: info.md
   - Atividade 1: atv1.md
