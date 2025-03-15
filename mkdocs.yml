@@ -4,6 +4,9 @@ theme:
   name: material
   features:
     - navigation.tabs  # Habilita navegação superior
+  palette:
+    primary: "#7CFC00"  # Cor da barra de menus (verde-limão)
+    accent: "#FFFFFF"   # Cor dos botões e links (branco)
 
 nav:
   - Home: index.md
