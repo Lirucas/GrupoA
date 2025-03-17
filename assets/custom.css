@@ -1,0 +1,17 @@
+:root {
+    --md-primary-fg-color: #228B22; /* Verde-limão para a barra de menus */
+    --md-accent-fg-color: #FFFFFF; /* Branco para os botões */
+    --md-typeset-a-color: #FFFFFF; /* Links brancos */
+}
+
+/* Garante que os botões fiquem visíveis */
+.md-button {
+    color: #FFFFFF !important;
+    border: 2px solid #FFFFFF !important;
+}
+
+/* Define fundo branco para os botões */
+.md-button--primary {
+    background-color: #FFFFFF !important;
+    color: #000000 !important; /* Texto preto nos botões */
+}
