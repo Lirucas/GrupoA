@@ -425,8 +425,8 @@ Além da variação espacial, o índice de mobilidade também apresenta diferen�
 
 A cidade de **São José dos Campos** possui diferentes zonas que regulam o uso e a ocupação do solo, garantindo um crescimento ordenado e equilibrado. Essas zonas são organizadas de acordo com sua função principal, permitindo desde áreas estritamente residenciais até espaços destinados a comércios, indústrias e preservação ambiental.  
 
-🖼 **Figura 22 - Mapa de uso e ocupação do solo SJCampos**  
-![Figura 22 - Mapa de uso e ocupação do solo SJCampos](assets/figura23.png)  
+🖼 **Figura 23 - Mapa de uso e ocupação do solo SJCampos**  
+![Figura 23 - Mapa de uso e ocupação do solo SJCampos](assets/figura23.png)  
 *(Fonte: Autor.)*  
 
 ### 1. Centralidade  
