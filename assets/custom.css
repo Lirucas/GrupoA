@@ -1,17 +1,15 @@
 :root {
-    --md-primary-fg-color: #228B22; /* Verde-limão para a barra de menus */
+    --md-primary-fg-color: #228B22; /* Verde para a barra de menus */
     --md-accent-fg-color: #FFFFFF; /* Branco para os botões */
-    --md-typeset-a-color: #FFFFFF; /* Links brancos */
+    --md-typeset-a-color: #228B22; /* Verde para os links no texto */
 }
 
-/* Garante que os botões fiquem visíveis */
-.md-button {
-    color: #FFFFFF !important;
-    border: 2px solid #FFFFFF !important;
+/* Links da barra de navegação */
+.md-header-nav__link {
+    color: #FFFFFF !important; /* Branco */
 }
 
-/* Define fundo branco para os botões */
-.md-button--primary {
-    background-color: #FFFFFF !important;
-    color: #000000 !important; /* Texto preto nos botões */
+/* Links dentro do conteúdo da página */
+.md-typeset a {
+    color: var(--md-typeset-a-color) !important; /* Verde */
 }
