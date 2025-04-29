@@ -1,4 +1,4 @@
-site_name: "Projeto Teste MkDocs"
+site_name: "Grupo A"
 
 theme:
   name: material
@@ -12,3 +12,5 @@ nav:
   - Home: index.md
   - A1 - 18/03/2025: atv1.md
   - A2 - 25/03/2025: atv2.md
+  - A3 - 29/04/2025: atv3.md
+  - A4 - 29/04/2025: atv4.md

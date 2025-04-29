@@ -7,6 +7,8 @@ São José dos Campos é uma **cidade estratégica** localizada no **Vale do Par
 
 *(Fonte: Adaptado de [IBGE](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/18354-recortes-metropolitanos-e-aglomeracoes-urbanas.html))* 
 
+---
+
 ## Destaques da Cidade 
  
 - **Infraestrutura desenvolvida** 
