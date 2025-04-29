@@ -998,7 +998,13 @@
 <em>(Fonte: Autor)</em>  </p>
 <p>O parâmetro de impedância <strong>β = -0.1</strong> é estimado a partir de <strong>iterações</strong> . É interessante notar que em casos usuais, esse dado <strong>penaliza voos mais distantes</strong>, mas no caso de <strong>viagens entre vertiportos em São José dos Campos</strong>, o <strong>valor absoluto de distância é extremamente baixo em todos os casos</strong> (menor que 16,5 km), ou seja, <strong>voos mais distantes</strong> (até 16,5 km) <strong>são desejados para maior eficiência</strong>, já que <strong>viagens de poucos km são mais vantajosas utilizando veículos comuns</strong>, que irão oferecer um tempo de viagem semelhante e menores custos. Após a <strong>estimativa do valor de impedância</strong>, o mesmo <strong>é validado a partir da literatura</strong>, <strong>convergindo para -0,1</strong> - <a href="https://www.sciencedirect.com/science/article/pii/S2773153724000252">A demand forecasting model for urban air mobility in Chengdu, China</a>.</p>
 <p>A constante de proporcionalidade <strong>k</strong> é ajustada de forma que os resultados estejam em uma <strong>escala interpretável e coerente</strong> com a quantidade de viagens esperadas, <strong>convergindo para 0,25</strong>.</p>
-<p>A aplicação do modelo com os parâmetros definidos resulta na <strong>matriz origem-destino</strong> estimada, que indica o <strong>número relativo de viagens</strong> partindo de cada vertiporto para cada macrozona. Essa matriz permite observar <strong>tendências de fluxo</strong>, identificar <strong>zonas com maior atratividade</strong> e subsidiar decisões sobre <strong>localização ótima de vertiportos</strong>, <strong>planejamento de rotas</strong> e <strong>integração modal</strong>.</p>
+<p>A aplicação do modelo com os parâmetros definidos resulta na <strong>matriz origem-destino</strong> estimada, que indica o <strong>número relativo de viagens</strong> partindo de cada vertiporto para cada macrozona. </p>
+<p>Essa matriz permite:</p>
+<ul>
+<li>Observar <strong>tendências de fluxo</strong></li>
+<li>Identificar <strong>zonas com maior atratividade</strong></li>
+<li>Subsidiar decisões sobre <strong>localização ótima de vertiportos</strong>, <strong>planejamento de rotas</strong> e <strong>integração modal</strong>.</li>
+</ul>
 <p><strong>Figura 18 - Matriz de origem-destino entre vertiportos e macrozonas</strong><br />
 <img alt="Figura 18 - Matriz de origem-destino entre vertiportos e macrozonas" src="../assets/A4R1.jpg" /><br />
 <em>(Fonte: Autor)</em> </p>
@@ -1007,12 +1013,12 @@
 <p>Já o <strong>Parque de Inovação Tecnológica</strong> e o <strong>Urbanova</strong> apresentam valores mais modestos, consistentes com seus <strong>menores fatores de produção</strong> e com sua <strong>localização mais periférica</strong> em relação às zonas de maior atração.</p>
 <p>A matriz gerada fornece um panorama inicial bastante útil para:</p>
 <ul>
-<li><strong>Priorizar investimentos</strong> em vertiportos com maior potencial de geração de viagens;</li>
-<li><strong>Compreender a relação espacial entre origem e destino</strong> em contextos urbanos de média escala;</li>
-<li><strong>Refinar trajetórias e horários operacionais</strong>, especialmente para evitar sobreposição de rotas em regiões sensíveis;</li>
-<li><strong>Apoiar decisões sobre fases de implementação</strong> e escalonamento da infraestrutura.</li>
+<li><strong>Priorizar investimentos</strong> em vertiportos com maior potencial de geração de viagens</li>
+<li><strong>Compreender a relação espacial entre origem e destino</strong> em contextos urbanos de média escala</li>
+<li><strong>Refinar trajetórias e horários operacionais</strong>, especialmente para evitar sobreposição de rotas em regiões sensíveis</li>
+<li><strong>Apoiar decisões sobre fases de implementação</strong> e escalonamento da infraestrutura</li>
 </ul>
-<p>É <strong>importante destacar</strong> que o estudo realizado possui limitações devido a abordagem e aos dados utilizados. Essas limitações se dão principalmente pelo uso de dados estabelecidos empiricamente, como é o caso do fator de produção e do fator de atratividade, definidos a partir da priorização de critérios e análise empírica dos sítios, e da percepção de uma pequena quantidade de viagens adotadas inicialmente, ou seja, por serem utilizadas estimativas que refletem as escolhas dos autores, os resultados seguem uma tendência de mostrar o que já era esperado ainda durante os estudos de critérios dos sítios. </p>
+<p>É <strong>importante destacar</strong> que o estudo realizado possui limitações devido a abordagem e aos dados utilizados, principalmente pelo uso de dados estabelecidos empiricamente, como é o caso do fator de produção e do fator de atratividade, definidos a partir da priorização de critérios e análise empírica dos sítios, e da percepção de uma pequena quantidade de viagens adotadas inicialmente, ou seja, por serem utilizadas estimativas que refletem as escolhas dos autores, os resultados seguem uma tendência de mostrar o que já era esperado ainda durante os estudos de critérios dos sítios. </p>
 <p>Ainda, <strong>uma forma de mitigar essas tendências e aumentar a qualidade do estudo</strong> seria <strong>utilizar de dados que possuem menor correlação com as escolhas dos autores e que sejam validados</strong>, como a <strong>percepção dos usuários finais das aeronaves eVTOL, ou seja, os passageiros</strong>. Também é interessante citar que <strong>diferentes dados usados para o modelo podem gerar diferentes estimativas de demanda</strong>, ou seja, e<strong>m cenários que outros critérios sejam avaliados, o sítio ótimo poderia ser outro</strong>.  </p>
 <hr />
 <h2 id="modelo-de-huff"><strong>Modelo de Huff</strong></h2>
@@ -1046,11 +1052,14 @@
 <li>Permite visualizar <strong>como a atratividade total afeta diretamente a decisão do usuário</strong>, mesmo diante de distâncias diferentes</li>
 <li>Auxilia na <strong>priorização de investimentos e definição de políticas operacionais</strong> para cada vertiporto</li>
 </ul>
-<p>É <strong>importante destacar</strong> que, de forma semelhante para o modelo de gravidade, o estudo realizado com o modelo de Huff também possui limitações devido a abordagem e aos dados utilizados. Essas limitações se dão, de forma semelhante, pelo uso de estimativas que refletem as escolhas dos autores, portanto, os resultados seguem uma tendência de mostrar o que já era esperado ainda durante os estudos de critérios dos sítios. Nos dois casos os parâmetros de sensibilidade <strong>β</strong> e <strong>λ</strong> foram ajustados para diminuir essa tendência e aumentar a influência do que é importante para a eficácia deste tipo de transporte aéreo em curtas distâncias absolutas, o que é perceptível em ambos os resultados a partir do número de viagens e chance de escolha, mesmo que não superior, mas próximo, entre os valores das macrozonas e vertiportos que possuem maior atratividade e os valores das macrozonas e vertiportos que possuem maior distância, ou seja, maior eficiência.</p>
-<p>Por fim, análise conjunta dos modelos de <strong>Gravidade</strong> e <strong>Huff</strong> revela <strong>resultados consistentes</strong>, mas com <strong>ênfases distintas</strong>: enquanto o Modelo de Gravidade foca na <strong>quantidade estimada de viagens entre origens e destinos</strong>, o Modelo de Huff se concentra na <strong>probabilidade relativa de escolha entre alternativas</strong>.</p>
-<p>No Modelo de Gravidade, os vertiportos com <strong>maior fator de produção</strong> e <strong>melhor posicionamento geográfico</strong> — como o <strong>Aeroporto Internacional de SJC</strong> e o <strong>Shopping Colinas</strong> — concentram a maior parte dos <strong>fluxos totais estimados</strong>. Já o Modelo de Huff, ao incorporar <strong>comportamento de escolha</strong>, reforça a <strong>preferência pelo Aeroporto</strong> devido à sua <strong>alta atratividade global</strong>, mas também destaca como <strong>vertiportos medianamente atrativos</strong>, como o <strong>Parque Tecnológico</strong>, podem alcançar <strong>relevância em zonas específicas</strong>.</p>
-<p>Além disso, o Modelo de Huff evidencia que mesmo alternativas com menor atratividade, como o <strong>Urbanova</strong>, mantêm <strong>alguma participação proporcional</strong>, ainda que reduzida, ao passo que o Modelo de Gravidade pode atribuir valores muito baixos ou nulos em termos absolutos.</p>
-<p>Em conjunto, os dois modelos oferecem uma <strong>visão complementar</strong>: o <strong>Gravidade projeta demanda em volume</strong>, enquanto o <strong>Huff interpreta a escolha com base na atratividade e acessibilidade relativa</strong>, ampliando a qualidade da tomada de decisão para a <strong>localização e operação de vertiportos urbanos</strong>.</p>
+<p>É <strong>importante destacar</strong> que o estudo realizado com o modelo de Huff também possui limitações devido a abordagem e aos dados utilizados. Essas limitações se dão, de forma semelhante, pelo uso de estimativas que refletem as escolhas dos autores, portanto, os resultados seguem uma tendência de mostrar o que já era esperado ainda durante os estudos de critérios dos sítios. </p>
+<p>Por fim, análise conjunta dos modelos de <strong>Gravidade</strong> e <strong>Huff</strong> revela <strong>resultados consistentes</strong>, mas com <strong>ênfases distintas</strong>:</p>
+<ul>
+<li>Modelo de Gravidade foca na <strong>quantidade estimada de viagens entre origens e destinos</strong></li>
+<li>Modelo de Huff se concentra na <strong>probabilidade relativa de escolha entre alternativas</strong>.</li>
+</ul>
+<p>No Modelo de Gravidade, os vertiportos com <strong>maior fator de produção</strong> e <strong>melhor posicionamento geográfico</strong> — como o <strong>Aeroporto Internacional de SJC</strong> e o <strong>Shopping Colinas</strong> — concentram a maior parte dos <strong>fluxos totais estimados</strong>. </p>
+<p>Já o Modelo de Huff, ao incorporar <strong>comportamento de escolha</strong>, reforça a <strong>preferência pelo Aeroporto</strong> devido à sua <strong>alta atratividade global</strong>, mas também destaca como <strong>vertiportos medianamente atrativos</strong>, como o <strong>Parque Tecnológico</strong>, podem alcançar <strong>relevância em zonas específicas</strong>.</p>
 
 
 
