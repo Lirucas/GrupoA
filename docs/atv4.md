@@ -283,7 +283,13 @@ O parâmetro de impedância **β = -0.1** é estimado a partir de **iterações*
 
 A constante de proporcionalidade **k** é ajustada de forma que os resultados estejam em uma **escala interpretável e coerente** com a quantidade de viagens esperadas, **convergindo para 0,25**.
 
-A aplicação do modelo com os parâmetros definidos resulta na **matriz origem-destino** estimada, que indica o **número relativo de viagens** partindo de cada vertiporto para cada macrozona. Essa matriz permite observar **tendências de fluxo**, identificar **zonas com maior atratividade** e subsidiar decisões sobre **localização ótima de vertiportos**, **planejamento de rotas** e **integração modal**.
+A aplicação do modelo com os parâmetros definidos resulta na **matriz origem-destino** estimada, que indica o **número relativo de viagens** partindo de cada vertiporto para cada macrozona. 
+
+Essa matriz permite:
+
+- Observar **tendências de fluxo**
+- Identificar **zonas com maior atratividade**
+- Subsidiar decisões sobre **localização ótima de vertiportos**, **planejamento de rotas** e **integração modal**.
 
 **Figura 18 - Matriz de origem-destino entre vertiportos e macrozonas**  
 ![Figura 18 - Matriz de origem-destino entre vertiportos e macrozonas](assets/A4R1.jpg)  
@@ -297,12 +303,12 @@ Já o **Parque de Inovação Tecnológica** e o **Urbanova** apresentam valores 
 
 A matriz gerada fornece um panorama inicial bastante útil para:
 
-- **Priorizar investimentos** em vertiportos com maior potencial de geração de viagens;
-- **Compreender a relação espacial entre origem e destino** em contextos urbanos de média escala;
-- **Refinar trajetórias e horários operacionais**, especialmente para evitar sobreposição de rotas em regiões sensíveis;
-- **Apoiar decisões sobre fases de implementação** e escalonamento da infraestrutura.
+- **Priorizar investimentos** em vertiportos com maior potencial de geração de viagens
+- **Compreender a relação espacial entre origem e destino** em contextos urbanos de média escala
+- **Refinar trajetórias e horários operacionais**, especialmente para evitar sobreposição de rotas em regiões sensíveis
+- **Apoiar decisões sobre fases de implementação** e escalonamento da infraestrutura
 
-É **importante destacar** que o estudo realizado possui limitações devido a abordagem e aos dados utilizados. Essas limitações se dão principalmente pelo uso de dados estabelecidos empiricamente, como é o caso do fator de produção e do fator de atratividade, definidos a partir da priorização de critérios e análise empírica dos sítios, e da percepção de uma pequena quantidade de viagens adotadas inicialmente, ou seja, por serem utilizadas estimativas que refletem as escolhas dos autores, os resultados seguem uma tendência de mostrar o que já era esperado ainda durante os estudos de critérios dos sítios. 
+É **importante destacar** que o estudo realizado possui limitações devido a abordagem e aos dados utilizados, principalmente pelo uso de dados estabelecidos empiricamente, como é o caso do fator de produção e do fator de atratividade, definidos a partir da priorização de critérios e análise empírica dos sítios, e da percepção de uma pequena quantidade de viagens adotadas inicialmente, ou seja, por serem utilizadas estimativas que refletem as escolhas dos autores, os resultados seguem uma tendência de mostrar o que já era esperado ainda durante os estudos de critérios dos sítios. 
 
 Ainda, **uma forma de mitigar essas tendências e aumentar a qualidade do estudo** seria **utilizar de dados que possuem menor correlação com as escolhas dos autores e que sejam validados**, como a **percepção dos usuários finais das aeronaves eVTOL, ou seja, os passageiros**. Também é interessante citar que **diferentes dados usados para o modelo podem gerar diferentes estimativas de demanda**, ou seja, e**m cenários que outros critérios sejam avaliados, o sítio ótimo poderia ser outro**.  
 
@@ -353,14 +359,16 @@ Essa análise por probabilidades:
 - Permite visualizar **como a atratividade total afeta diretamente a decisão do usuário**, mesmo diante de distâncias diferentes
 - Auxilia na **priorização de investimentos e definição de políticas operacionais** para cada vertiporto
 
-É **importante destacar** que, de forma semelhante para o modelo de gravidade, o estudo realizado com o modelo de Huff também possui limitações devido a abordagem e aos dados utilizados. Essas limitações se dão, de forma semelhante, pelo uso de estimativas que refletem as escolhas dos autores, portanto, os resultados seguem uma tendência de mostrar o que já era esperado ainda durante os estudos de critérios dos sítios. Nos dois casos os parâmetros de sensibilidade **β** e **λ** foram ajustados para diminuir essa tendência e aumentar a influência do que é importante para a eficácia deste tipo de transporte aéreo em curtas distâncias absolutas, o que é perceptível em ambos os resultados a partir do número de viagens e chance de escolha, mesmo que não superior, mas próximo, entre os valores das macrozonas e vertiportos que possuem maior atratividade e os valores das macrozonas e vertiportos que possuem maior distância, ou seja, maior eficiência.
+É **importante destacar** que o estudo realizado com o modelo de Huff também possui limitações devido a abordagem e aos dados utilizados. Essas limitações se dão, de forma semelhante, pelo uso de estimativas que refletem as escolhas dos autores, portanto, os resultados seguem uma tendência de mostrar o que já era esperado ainda durante os estudos de critérios dos sítios. 
+
+Por fim, análise conjunta dos modelos de **Gravidade** e **Huff** revela **resultados consistentes**, mas com **ênfases distintas**:
+
+- Modelo de Gravidade foca na **quantidade estimada de viagens entre origens e destinos**
+- Modelo de Huff se concentra na **probabilidade relativa de escolha entre alternativas**.
+
+No Modelo de Gravidade, os vertiportos com **maior fator de produção** e **melhor posicionamento geográfico** — como o **Aeroporto Internacional de SJC** e o **Shopping Colinas** — concentram a maior parte dos **fluxos totais estimados**. 
+
+Já o Modelo de Huff, ao incorporar **comportamento de escolha**, reforça a **preferência pelo Aeroporto** devido à sua **alta atratividade global**, mas também destaca como **vertiportos medianamente atrativos**, como o **Parque Tecnológico**, podem alcançar **relevância em zonas específicas**.
 
 
-Por fim, análise conjunta dos modelos de **Gravidade** e **Huff** revela **resultados consistentes**, mas com **ênfases distintas**: enquanto o Modelo de Gravidade foca na **quantidade estimada de viagens entre origens e destinos**, o Modelo de Huff se concentra na **probabilidade relativa de escolha entre alternativas**.
-
-No Modelo de Gravidade, os vertiportos com **maior fator de produção** e **melhor posicionamento geográfico** — como o **Aeroporto Internacional de SJC** e o **Shopping Colinas** — concentram a maior parte dos **fluxos totais estimados**. Já o Modelo de Huff, ao incorporar **comportamento de escolha**, reforça a **preferência pelo Aeroporto** devido à sua **alta atratividade global**, mas também destaca como **vertiportos medianamente atrativos**, como o **Parque Tecnológico**, podem alcançar **relevância em zonas específicas**.
-
-Além disso, o Modelo de Huff evidencia que mesmo alternativas com menor atratividade, como o **Urbanova**, mantêm **alguma participação proporcional**, ainda que reduzida, ao passo que o Modelo de Gravidade pode atribuir valores muito baixos ou nulos em termos absolutos.
-
-Em conjunto, os dois modelos oferecem uma **visão complementar**: o **Gravidade projeta demanda em volume**, enquanto o **Huff interpreta a escolha com base na atratividade e acessibilidade relativa**, ampliando a qualidade da tomada de decisão para a **localização e operação de vertiportos urbanos**.
 
