@@ -1,4 +1,4 @@
-site_name: "Grupo A"
+site_name: "Grupo A ✈️"
 
 theme:
   name: material
@@ -14,3 +14,4 @@ nav:
   - A2 - 25/03/2025: atv2.md
   - A3 - 29/04/2025: atv3.md
   - A4 - 29/04/2025: atv4.md
+  - A5 - 20/05/2025: atv5.md
