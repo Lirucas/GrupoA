@@ -7,7 +7,7 @@ Com o sítio definido no Aeroporto Internacional de São José dos Campos (SP), 
 - [RBAC 155 (ANAC, 2024)](https://www.gov.br/anac/pt-br/assuntos/regulados/aeroportos-e-aerodromos/cadastro-de-aerodromos/procedimentos-para-aerodromos-privados/manual_orientacoes_infraestrutura_helipontos.pdf)
 - [ICA 11-408 (DECEA, 2020)](https://publicacoes.decea.mil.br/publicacao/ica-11-408)
 
-## Projeto do vertiporto ##
+## Projeto do Vertiporto ##
 
 O dimensionamento foi baseado no **eVTOL Eve**, que possui dimensão **D = 15,2 m**, que corresponde ao **menor círculo que envolve a projeção da aeronave em planta horizontal**. A estrutura principal do vertiporto contempla:
 
