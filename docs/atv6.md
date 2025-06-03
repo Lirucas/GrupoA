@@ -84,6 +84,13 @@ O fluxograma abaixo ilustra o fluxo de passageiros bem como o acesso e proximida
 
 ## Planta do Lado Terra ##
  
+A planta do lado Terra é mostrada abaixo, junta do vertiporto completo no Qgis.
+
+**Figura 7 - Planta lado Terra**  
+![Figura 7 - Planta lado Terra](assets/A666.jpg) 
+
+**Figura 8 - Vertiporto no Qgis**  
+![Figura 8 - Vertiporto no Qgis](assets/A667.jpg)
 
 Área para Expansão Futura: Espaço reservado para ampliação do terminal, permitindo aumento de 40% na capacidade conforme recomendado por Medeiros (2004). Assim, uma área de 114m² será reservada para futura expansão. 
 
